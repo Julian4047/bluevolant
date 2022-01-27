@@ -218,22 +218,6 @@
         align-items: center;
     }
     
-    .borderLeft {
-        border-left: 1px solid #ced4da;
-    }
-    
-    .borderRight {
-        border-right: 1px solid #ced4da;
-    }
-    
-    .border {
-        border: 1px solid #ced4da;
-    }
-    
-    label {
-        margin: 0;
-    }
-    
     @media (max-width: 540px) {
         .shop {
             grid-template-columns: repeat(1, 1fr);
