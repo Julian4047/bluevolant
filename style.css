@@ -256,6 +256,14 @@
         border-right: 1px solid #ced4da;
     }
     
+    .borderBottom {
+        border-bottom: 1px solid #ced4da;
+    }
+    
+    .borderTop {
+        border-top: 1px solid #ced4da;
+    }
+    
     .border {
         border: 1px solid #ced4da;
     }
