@@ -22,6 +22,12 @@
         background-color: white;
     }
     
+    .navbarHome {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    
     .shop {
         display: grid;
         align-items: center;
@@ -120,8 +126,26 @@
         justify-self: center;
     }
     
-    svg {
-        margin-top: -3vh;
+    .legendN {
+        width: 1.6rem;
+        height: 1.6rem;
+        background-color: #dde6ff;
+        color: #0047FF;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1rem;
+        border-radius: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: -0.8rem;
+        justify-self: center;
+    }
+    
+    .stepsC {
+        margin: 0;
+        margin-top: -0.8rem;
+    }
+    
+    .svgNetworks {
         width: 10vw;
     }
     
@@ -212,6 +236,12 @@
         align-items: center;
     }
     
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .mF2 {
         display: flex;
         justify-content: right;
@@ -230,7 +260,115 @@
         border: 1px solid #ced4da;
     }
     
+    .borderGB {
+        border: 1px solid #ced4da;
+    }
+    
+    .radius {
+        border-radius: 0.25rem;
+    }
+    
     label {
+        margin: 0;
+    }
+    
+    .containerHCM {
+        padding: 15px;
+        box-shadow: 1px 4px 34px -7px rgba(0, 71, 255, 0.16);
+        -webkit-box-shadow: 1px 4px 34px -7px rgba(0, 71, 255, 0.16);
+        -moz-box-shadow: 1px 4px 34px -7px rgba(0, 71, 255, 0.16);
+    }
+    
+    .containerHC {
+        width: 480px;
+        padding: 15px;
+    }
+    
+    .homeChild {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        align-items: center;
+        width: 40vw;
+    }
+    
+    .stepsM {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(3, 3fr);
+        margin: 15px;
+    }
+    
+    .stepsT {
+        margin: 15px;
+        text-align: left;
+        color: #00CC96;
+    }
+    
+    .btn-outline-success {
+        border-color: #00CC96;
+        color: #00CC96;
+    }
+    
+    .btn-outline-success:hover {
+        border-color: #00CC96;
+        background: #00CC96;
+    }
+    
+    .steps {
+        margin: 15px;
+        width: 120px;
+        height: 180px;
+        display: grid;
+        justify-content: center;
+        background-color: white;
+    }
+    
+    .stepsP {
+        margin-top: -195px;
+        background: none;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: rgba(0, 0, 0, .7);
+    }
+    
+    .pSteps {
+        text-align: center;
+        padding: 1rem;
+        margin: 0;
+    }
+    
+    h1 {
+        margin: 0;
+        font-size: 1.9rem;
+    }
+    
+    .svgSteps {
+        fill: #dde6ff;
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    
+    .svgSteps2 {
+        fill: #00CC96;
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    
+    .home {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 111px;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #ffff;
+        grid-template-columns: repeat(2, 2fr);
         margin: 0;
     }
     
@@ -262,6 +400,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        .home {
+            grid-template-columns: repeat(1, 1fr);
+            height: 200vh;
+            padding-bottom: 111px;
         }
     }
     
