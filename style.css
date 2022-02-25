@@ -313,7 +313,6 @@ label {
 }
 
 .stepsT {
-    margin: 15px;
     text-align: left;
     color: #00CC96;
 }
@@ -455,6 +454,7 @@ label {
         align-items: center;
         grid-template-columns: repeat(1, 1fr);
         background: rgba(249, 252, 255, 0.85);
+        padding: 30px;
     }
     .steps {
         margin: 15px;
@@ -481,7 +481,6 @@ label {
         background-color: none;
         grid-template-columns: repeat(1, 1fr);
         margin: 0;
-        padding: 30px;
     }
     .stepsPCB {
         display: grid;
@@ -490,16 +489,26 @@ label {
         background-color: none;
         grid-template-columns: repeat(1, 1fr);
         margin: 0;
-        margin-top: -690px;
+        margin-top: -630px;
     }
     lottie-player {
         width: 100%;
     }
-    .containerHCM,
+    .containerHCM {
+        width: 100%;
+        height: auto;
+        -webkit-box-shadow: none;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
     .containerHC {
         width: 85vw;
         height: auto;
         -webkit-box-shadow: none;
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
     .homeChildA {
         display: grid;
