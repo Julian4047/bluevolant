@@ -11,12 +11,14 @@ setTimeout(funS, 10000);
 /*<iframe src="https://who.is/whois/bluevolant.com"></iframe>*/
 function s() {
     let dSv = document.getElementById("dS").value;
-    let dSv2 = document.write('<iframe src="https://who.is/whois/' + dSv + '"></iframe>'); * /
-    /*let dSv2 = document.createElement('iframe');
-    dSv2.src = 'https://who.is/whois/' + dSv + '"></iframe>';
-    */
-    document.getElementById("domainLookerO").appendChild(dSv2);
-
+    /*let dSv2 =*/
+    document.write('<iframe src="https://who.is/whois/' + dSv + '"></iframe>');
+    /* 
+    let dSv2 = document.createElement('iframe');
+    let v = 'https://who.is/whois/' + dSv + '"></iframe>';
+    dSv2.setAttribute("src", v);
+    document.getElementById("domainLookerO123").appendChild(dSv2);
+*/
     setTimeout(myGreeting, 5000);
 
     function myGreeting() {
